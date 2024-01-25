@@ -1,0 +1,27 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, pink, pink, white, pink, pink);
+}
+.list-main-container {
+  display: flex;
+  justify-content: center;
+}
+.list-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 50px;
+  color: #183b56;
+  margin-bottom: 30px;
+}
+.search-input {
+  padding: 10px;
+  border-radius: 5px;
+}
